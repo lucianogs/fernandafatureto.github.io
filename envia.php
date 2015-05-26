@@ -23,6 +23,6 @@ $headers .= "From: $emailremetente\r\n"; // remetente
 $headers .= "Return-Path: $emaildestinatario \r\n"; // return-path
 $envio = mail($emaildestinatario, $assunto, $mensagemHTML, $headers); 
 
-//if($envio)
-//echo "<div class="modal small"><button type="button" class="btn btn-primary">E-mail enviado com sucesso!</button></div>"; // Página que será redirecionada
+if($envio)
+echo "<div class="modal small"><button type="button" class="btn btn-primary">E-mail enviado com sucesso!</button></div><script>location.href='http://www.fernandafatureto.com.br/'</script>"; // Página que será redirecionada
 ?>
