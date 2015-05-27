@@ -36,7 +36,7 @@
                 $('#send_message').attr({'disabled' : 'true', 'value' : 'Sending...' });
                 
 				/* Post Ajax function of jQuery to get all the data from the submission of the form as soon as the form sends the values to email.php*/
-                $.post("envia-nutri.php", $("#contact-form").serialize(),function(result){
+                $.post("http://www.superup.com.br/envia-nutri.php", $("#contact-form").serialize(),function(result){
                     //Check the result set from email.php file.
                     if(result == 'sent'){
                         //If the email is sent successfully, remove the submit button
