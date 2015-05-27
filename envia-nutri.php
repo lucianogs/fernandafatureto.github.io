@@ -4,14 +4,16 @@
 $nomeremetente     = $_POST['name'];
 $emailremetente    = trim($_POST['email']);
 $emaildestinatario = 'contato@fernandafatureto.com.br'; // Digite seu e-mail aqui, lembrando que o e-mail deve estar em seu servidor web
+$assunto          = $_POST['name'];
 $mensagem          = $_POST['message'];
+
  
  
 /* Montando a mensagem a ser enviada no corpo do e-mail. */
 $mensagemHTML = '<P>FORMULARIO PREENCHIDO NO SITE WWW.FERNANDAFATURETO.COM.BR</P>
-<p><b>Nome:</b> '.$name.'
-<p><b>E-Mail:</b> '.$email.'
-<p><b>Mensagem:</b> '.$message.'</p>
+<p><b>Nome:</b> '.$nomeremetente.'
+<p><b>E-Mail:</b> '.$emailremetente.'
+<p><b>Mensagem:</b> '.$mensagem.'</p>
 <hr>';
 
 
