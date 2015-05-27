@@ -493,22 +493,22 @@ time {
 	padding: 0;
 }
 #next-event {
-	background: url(../images/event-section-bg.jpg) 50% 0 no-repeat fixed;
+	background: none;
 	margin: 0 auto;
 	padding: 0;
 }
 #testimonial {
-	background: url(../images/testimonial-bg.jpg) 50% 0 no-repeat fixed;
+	background: none;
 	margin: 0 auto;
 	padding: 0;
 }
 #tweet-section {
-	background: url(../images/tweet-section-bg.jpg) 50% 0 no-repeat fixed;
+	background: none;
 	margin: 0 auto;
 	padding: 0;
 }
 #clients {
-	background: url(../images/clients-bg.jpg) 50% 0 no-repeat fixed;
+	background: none;
 	margin: 0 auto;
 	padding: 0;
 }
