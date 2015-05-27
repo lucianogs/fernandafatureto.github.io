@@ -24,5 +24,5 @@ $headers .= "Return-Path: $emaildestinatario \r\n"; // return-path
 $envio = mail($emaildestinatario, $assunto, $mensagemHTML, $headers); 
 
 if($envio)
-echo "<div class="modal small"><button type="button" class="btn btn-primary">E-mail enviado com sucesso!</button></div><script>location.href='http://www.fernandafatureto.com.br/'</script>"; // Página que será redirecionada
+echo "<script>alert('E-mail enviado com sucesso');</script><script>location.href='http://www.fernandafatureto.com.br/'</script>";;
 ?>
