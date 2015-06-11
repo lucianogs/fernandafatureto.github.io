@@ -623,7 +623,7 @@ time {
 
 /* 3 - Main Menu
 ------------------------------------------------------------------------*/
-.navbar,
+.navbar, .navbar-social,
 .navbar-brand .logo {
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -660,6 +660,10 @@ time {
 .navbar-brand .logo {
 	height: 80px;
 	width: auto;
+}
+.navbar-social {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-bottom: 1px solid #999;
 }
 .menu-bg .navbar-brand .logo {
     height: 90px;
