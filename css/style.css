@@ -208,8 +208,8 @@ time {
 /* 2.2 - Section Title and Description
 ---------------------------------------------*/
 .section-head {
-	margin-top: 0px;
-	margin-bottom: 85px;
+    margin-top: 5px;
+    margin-bottom: 85px;
 }
 .section-title {
   color: #0d0d0d;
@@ -691,16 +691,16 @@ time {
   border-bottom: 1px solid #999;
 }
 .navbar-brand {
-    height: 140px;
+    height: 180px;
     font-size: 2rem;
     font-weight: 700;
     padding: 0px 15px;
     line-height: 80px;
 }
 .navbar-brand .logo {
-    height: 130px;
+    height: 165px;
     width: auto;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .navbar-social {
 	background-color: #ffffff;
@@ -782,6 +782,18 @@ a.donate:hover {
 .blog-page,
 .menu-bg {
 	background-color: #f9f9f9;
+}
+.menu-bg {
+    min-height: 125px;
+}
+.menu-bg .navbar-brand {
+    height: 125px;
+}
+#headernavigation {
+    margin-top: 50px;
+}
+.menu-bg #headernavigation {
+    margin-top: 25px;
 }
 /* 3 - Main Menu End 
 ------------------------------------------------------------------------*/
@@ -2434,4 +2446,27 @@ article blockquote {
 }
 
 /* 24 - Element Appear Effect End
+---------------------------------------------------------------------- */
+
+/* 25 - Bootstrap Edit
+---------------------------------------------------------------------- */
+
+.carousel-inner > .item {
+    height: 305px;
+    margin-top: 125px;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    margin-left: -30%;
+    padding-left: 0px;
+    list-style: outside none none;
+    text-align: center;
+    display: none;
+}
+
+/* 25 - Bootstrap Edit End
 ---------------------------------------------------------------------- */
