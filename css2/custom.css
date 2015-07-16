@@ -123,7 +123,10 @@ time {
 	max-width: 550px;
 	margin: auto;
 }
-
+.meida-container img {
+    width: 245px;
+    height: auto;
+}
 .video-container iframe {
 	min-height: 250px;
 	width: 100%;
@@ -500,9 +503,8 @@ time {
 	font-weight: 700;
 }
 #top-section {
-	background: url(../images/top-section-bg.jpg) 50% 0 no-repeat fixed;
-	margin: 0 auto;
-	padding: 0;
+    margin: 0px auto;
+    padding: 0px;
 }
 #about-parallax {
 	background: url(../images/about-parallax-bg.jpg) 50% 0 no-repeat fixed;
@@ -803,16 +805,14 @@ a.donate:hover {
 .top-section {
 	position: relative;
 }
-
 .slider-txt-container {
     color: #FFF;
     text-align: center;
     text-transform: uppercase;
-    padding: 200px 0px;
     width: 100%;
     overflow: hidden;
+    margin-top: 217px;
 }
-
 .top-section .thin-txt {
 	font-size: 3.125em;
 	font-weight: 100;
@@ -2468,4 +2468,19 @@ article blockquote {
 }
 
 /* 25 - Bootstrap Edit End
+---------------------------------------------------------------------- */
+
+
+
+/* 25 - Plugin Wordpress Edit
+---------------------------------------------------------------------- */
+
+
+.compact-theme.wp-posts-carousel .wp-posts-carousel-image img {
+    width: 254px;
+    height: auto;
+}
+
+
+/* 25 - Plugin Wordpress Edit End
 ---------------------------------------------------------------------- */
