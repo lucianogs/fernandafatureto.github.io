@@ -12,6 +12,34 @@ jQuery(window).on('scroll', function (){
     jQuery('#main-menu').removeClass('menu-bg');
   }
 
+
+  /*-------------------------------  Scroll to Top ----------------------------*/
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 200) {
+     $('#scroll-to-top').fadeIn('slow');
+       } else {
+        $('#scroll-to-top').fadeOut('slow');
+      }
+    }); 
+
+  $('#scroll-to-top').click(function(){
+    $("html,body").animate({ scrollTop: 0 }, 1000);
+    return false;
+  });
+
+
+   //  Run Nice Scroll
+  $("html").niceScroll({
+    scrollspeed: 30,
+    mousescrollstep: 70,
+    cursorwidth: 10,
+    zindex: 9999,
+    cursorborderradius: 2,
+    hwacceleration: true,
+    cursorborder: "1px solid transparent",
+    background: "#FFF",
+  });
+
 });
 
 /*------------------------- Team Member Slider ----------------------------*/
@@ -266,34 +294,5 @@ jQuery(document).ready(function($) {
       $(this).delay(150).animate({opacity:1,right:"0px"},600);
     }); 
   });
-
-
-  /*-------------------------------  Scroll to Top ----------------------------*/
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 200) {
-     $('#scroll-to-top').fadeIn('slow');
-       } else {
-        $('#scroll-to-top').fadeOut('slow');
-      }
-    }); 
-
-  $('#scroll-to-top').click(function(){
-    $("html,body").animate({ scrollTop: 0 }, 1000);
-    return false;
-  });
-
-
-   //  Run Nice Scroll
-  $("html").niceScroll({
-    scrollspeed: 30,
-    mousescrollstep: 70,
-    cursorwidth: 10,
-    zindex: 9999,
-    cursorborderradius: 2,
-    hwacceleration: true,
-    cursorborder: "1px solid transparent",
-    background: "#FFF",
-  });
-  
 
 });
