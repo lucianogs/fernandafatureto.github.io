@@ -12,14 +12,7 @@ jQuery(window).on('scroll', function (){
     jQuery('#main-menu').removeClass('menu-bg');
   }
 
-  
-  /*----------------- prettyPhoto Image Gallery -----------------*/
-  jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({social_tools:false});
-
 });
-
-
-
 
 /*------------------------- Team Member Slider ----------------------------*/
 var teamSlider = $("#team-slider");
@@ -43,8 +36,6 @@ teamSlider.owlCarousel({
         responsiveRefreshRate : 200,
         responsiveBaseWidth: window
     });
-
-
 
 /*------------------------- Causes Post Slider ----------------------------*/
 var causestSlider = $("#causes-post-slider");
@@ -76,9 +67,6 @@ causestSlider.owlCarousel({
         causestSlider.trigger('owl.prev');
       });
 
-
-
-
 /*------------------------- Upcoming Event Slider ----------------------------*/
 var eventSlider = $("#event-post-slider");
 
@@ -108,9 +96,6 @@ eventSlider.owlCarousel({
       $(".slide-right").click(function(){
         eventSlider.trigger('owl.prev');
       });
-
-
-
 
 
 jQuery(window).load(function($) {
