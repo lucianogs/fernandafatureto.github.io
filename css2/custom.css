@@ -1017,11 +1017,16 @@ a.donate:hover {
 /* 6 - Team Section End 
 ------------------------------------------------------------------------*/
 
-/* 7 - Volunteer Section
+/* 7 - Blog Section
 ------------------------------------------------------------------------*/
+.content-area {
+    margin-top: 235px;
+}
+.container.home-content.content-front-page.sidebar-right {
+    margin-top: 135px;
+}
 
-
-/* 7 - Volunteer Section End 
+/* 7 - Blog Section End 
 ------------------------------------------------------------------------*/
 
 /* 8 - Next Event Section
