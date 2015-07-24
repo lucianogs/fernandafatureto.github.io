@@ -602,12 +602,6 @@ time {
 	content: '';
 	margin-left: -1px;
 }
-.hex ,
-.hex:before, 
-.hex:after {
-	border-left: 2px solid #a5cb39;
-	border-right: 2px solid #a5cb39;
-}
 .hex:before {
 	-webkit-transform: rotate(60deg);
 	-moz-transform: rotate(60deg);
