@@ -687,14 +687,14 @@ time {
   border-bottom: 1px solid #999;
 }
 .navbar-brand {
-    height: 180px;
+    height: 155px;
     font-size: 2rem;
     font-weight: 700;
     padding: 0px 15px;
     line-height: 80px;
 }
 .navbar-brand .logo {
-    height: 165px;
+    height: 140px;
     width: auto;
     margin-top: 10px;
 }
@@ -2404,7 +2404,7 @@ article blockquote {
 }
 .hex.scroll-top:after,
 .hex.scroll-top:before {
-	margin-left: -2px;
+	margin-left: 0px;
 	background-color: #a5cb39;
 }
 
