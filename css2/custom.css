@@ -802,11 +802,11 @@ a.donate:hover {
 }
 .slider-txt-container {
     color: #FFF;
-    text-align: center;
     text-transform: uppercase;
     width: 100%;
     overflow: hidden;
-    margin-top: 217px;
+    margin-top: 192px;
+    text-align: center;
 }
 .top-section .thin-txt {
 	font-size: 3.125em;
