@@ -442,8 +442,11 @@ time {
 .parallax-overlay {
 	background-color: rgba(0,0,0,.6);
 }
-.parallax-overlay.dark-overlay {
+/*.parallax-overlay.dark-overlay {
 	background-color: rgba(0,0,0,.85);
+}*/
+.parallax-overlay.dark-overlay {
+    background-color: rgb(255, 255, 255);
 }
 .parallax-style .carousel-indicators li.active {
 	background-color: rgba(255,255,255,1);
@@ -474,7 +477,7 @@ time {
     width: 50px;
 }
 .parallax-title-parceiros {
-    color: #fff;
+    color: #000;
     font-size: 2em;
     font-weight: 800;
     margin-bottom: 45px;
@@ -1020,7 +1023,8 @@ a.donate:hover {
 /* 7 - Blog Section
 ------------------------------------------------------------------------*/
 .content-area {
-    margin-top: 235px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .container.home-content.content-front-page.sidebar-right {
     margin-top: 135px;
@@ -1671,8 +1675,8 @@ a.donate:hover {
 	text-align: center;
 }
 .client-logo img {
-  width: 40%;
-  max-width: 100%;
+    width: 60%;
+    max-width: 100%;
 }
 /* 17 - Clients Section End 
 ------------------------------------------------------------------------*/
