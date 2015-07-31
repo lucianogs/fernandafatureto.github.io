@@ -246,9 +246,11 @@ time {
     color: #404040;
     float: left;
     font-weight: 300;
-    line-height: 45px;
-    margin-left: 25px;
+    line-height: 22px;
+    margin-left: 22px;
+    padding-top: 5px;
     text-transform: uppercase;
+    width: 76%;
 }
 .plx-section-title {
 	color: #ffffff;
