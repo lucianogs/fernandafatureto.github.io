@@ -106,7 +106,7 @@ time {
   padding-bottom: 20px;
 }
 
-#about, #service, #news {
+.page-template-homepage #about, .page-template-homepage #service, .page-template-homepage #news {
     padding-bottom: 30px;
     padding-top: 50px;
 }
