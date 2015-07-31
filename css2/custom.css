@@ -1693,7 +1693,7 @@ a.donate:hover {
 	width: 100%;
 	height: 50px;
 	margin-bottom: 10px;
-	border: 2px solid #d9d9d9;
+	border: 1px solid #d9d9d9;
 	position: relative;
 	background-color: transparent;
 }
@@ -1725,9 +1725,10 @@ a.donate:hover {
 .contact-form-container textarea.form-control {
 	height: inherit;
 }
-.comment-form .form-control:focus,
-.contact-form-container .form-control:focus {
-	border-color:#a5cb39; 
+.comment-form .form-control:focus, 
+.contact-form-container .form-control:focus, 
+.comments-area .form-control:focus {
+    border-color: #A5CB39;
 }
 .contact-form-container .custom-btn {
     color: #0D0D0D;
@@ -2087,22 +2088,23 @@ blockquote.post-blockquote:before {
 	width: 100%;
 	min-height: 200px;
 }
-#commentform input[type="submit"],
+
+#commentform input[type="submit"], 
 #commentform button[type="submit"] {
-	background-color: #e12444;
-	border: none;
-	font-weight: 600;
-	text-transform: uppercase;
-	color: #FFF;
-	height: 50px;
-	line-height: 20px;
-	padding: 10px 20px;
-	margin: 5px 0 120px 0;
-	outline-style: none;
+    border: 2px solid #A5CB39;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    height: 40px;
+    line-height: 20px;
+    padding: 0px 50px 0px 40px;
+    outline-style: none;
+    background: none;
 }
 #commentform input[type="submit"]:hover,
 #commentform button[type="submit"]:hover {
 	background-color:#a5cb39;
+	color:#fff
 }
 
 /* 20.4 - Comment Section
