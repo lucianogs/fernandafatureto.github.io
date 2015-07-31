@@ -5,8 +5,6 @@
 /* Google Font End 
 ------------------------------------------------------------------------*/
 
-
-
 /* 2 - Global Styles
 ---------------------------------------------------------------------- */
 html,
@@ -108,11 +106,18 @@ time {
   padding-bottom: 20px;
 }
 
-.parallax-style .section-padding {
-  padding-top: 150px;
-  padding-bottom: 150px;
+#about, #service, #news {
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+#upcoming-events {
+    margin-top: -50px;
 }
 
+.parallax-style .section-padding {
+    padding-bottom: 80px;
+    padding-top: 35px;
+}
 .pattern {
 	background-color: rgba(0,0,0,.7);
 	background-image: url(../images/pattern.png);
@@ -224,7 +229,7 @@ time {
     position: relative;
     text-align: left;
     text-transform: uppercase;
-    width: 220px;
+    width: auto;
 }
 .section-title:after {
     background-color: #a5cb39;
@@ -239,9 +244,10 @@ time {
 }
 .section-description {
     color: #404040;
+    float: left;
     font-weight: 300;
-    line-height: 27px;
-    margin-left: 240px;
+    line-height: 45px;
+    margin-left: 25px;
     text-transform: uppercase;
 }
 .plx-section-title {
@@ -339,12 +345,10 @@ time {
 	line-height: 38px;
 	overflow: hidden;
 	z-index: 0;
-}
-.custom-btn {
 	border: 2px solid #ffffff;
 	color: #ffffff;
 	font-size:1em;
-	margin: 5px 10px;
+	margin: 5px 0;
 	padding: 0 20px;
 	text-transform: uppercase;
 }
@@ -1724,7 +1728,6 @@ a.donate:hover {
     background-color: #FFF;
     border-color: #A5CB39;
     margin: 15px 0px;
-    border-radius: 10px;
 }
 .contact-form-container .custom-btn:hover {
 	color: #ffffff;
