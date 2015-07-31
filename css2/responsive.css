@@ -23,6 +23,9 @@
 	.container {
 		width: 100%;
 	}
+	.content-area .container {
+		padding-left: 15px;
+	}
 	.slider-txt-container {
 		padding: 60px 15px 100px 15px;
 	}

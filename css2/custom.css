@@ -1029,6 +1029,7 @@ a.donate:hover {
 }
 .content-area .container {
     max-width: 1120px;
+    padding-left: 0;
 }
 .container.home-content.content-front-page.sidebar-right {
     margin-top: 40px;
