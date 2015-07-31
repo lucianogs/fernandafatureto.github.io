@@ -704,7 +704,8 @@ time {
     margin-top: 10px;
 }
 .navbar-social {
-	background-color: #ffffff;
+    background-color: #ffffff;
+    height: 30px;
 }
 .menu-bg .navbar-brand .logo {
     height: 110px;
