@@ -1027,8 +1027,11 @@ a.donate:hover {
 .content-area {
     margin-bottom: 50px;
 }
+.content-area .container {
+    width: 70%;
+}
 .container.home-content.content-front-page.sidebar-right {
-    margin-top: 135px;
+    margin-top: 40px;
 }
 
 /* 7 - Blog Section End 
