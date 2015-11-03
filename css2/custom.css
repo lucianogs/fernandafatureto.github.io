@@ -110,6 +110,11 @@ time {
     padding-bottom: 30px;
     padding-top: 50px;
 }
+.page-template-woocommerce figure {
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
 #upcoming-events {
     margin-top: -50px;
 }
